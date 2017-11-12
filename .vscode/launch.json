@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "PlatformIO Debugger",
+            "target": "/Users/Guille/Documents/PlatformIO/Projects/171109-174732-nanoatmega328/.pioenvs/nanoatmega328/firmware.elf",
+            "gdbpath": "/Users/Guille/.platformio/penv/bin/piodebuggdb",
+            "autorun": [ "source .pioinit" ]
+        }
+    ]
+}
