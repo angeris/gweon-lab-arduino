@@ -4,5 +4,125 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+CR	../venv/bin/miniterm.py	/^class CR(Transform):$/;"	kind:class	line:199
+CRLF	../venv/bin/miniterm.py	/^class CRLF(Transform):$/;"	kind:class	line:192
+Colorize	../venv/bin/miniterm.py	/^class Colorize(Transform):$/;"	kind:class	line:259
+Console	../venv/bin/miniterm.py	/^    class Console(ConsoleBase):$/;"	kind:class	line:102
+Console	../venv/bin/miniterm.py	/^    class Console(ConsoleBase):$/;"	kind:class	line:140
+ConsoleBase	../venv/bin/miniterm.py	/^class ConsoleBase(object):$/;"	kind:class	line:41
+DebugIO	../venv/bin/miniterm.py	/^class DebugIO(Transform):$/;"	kind:class	line:274
+EOL_TRANSFORMATIONS	../venv/bin/miniterm.py	/^EOL_TRANSFORMATIONS = {$/;"	kind:variable	line:292
+LF	../venv/bin/miniterm.py	/^class LF(Transform):$/;"	kind:class	line:209
+Miniterm	../venv/bin/miniterm.py	/^class Miniterm(object):$/;"	kind:class	line:334
+NoControls	../venv/bin/miniterm.py	/^class NoControls(NoTerminal):$/;"	kind:class	line:229
+NoTerminal	../venv/bin/miniterm.py	/^class NoTerminal(Transform):$/;"	kind:class	line:213
+Out	../venv/bin/miniterm.py	/^    class Out(object):$/;"	kind:class	line:90
+Printable	../venv/bin/miniterm.py	/^class Printable(Transform):$/;"	kind:class	line:241
+REPLACEMENT_MAP	../venv/bin/miniterm.py	/^    REPLACEMENT_MAP = dict((x, 0x2400 + x) for x in range(32) if unichr(x) not in '\\r\\n\\b\\t')$/;"	kind:variable	line:216
+REPLACEMENT_MAP	../venv/bin/miniterm.py	/^    REPLACEMENT_MAP = dict((x, 0x2400 + x) for x in range(32))$/;"	kind:variable	line:232
+TRANSFORMATIONS	../venv/bin/miniterm.py	/^TRANSFORMATIONS = {$/;"	kind:variable	line:298
+Transform	../venv/bin/miniterm.py	/^class Transform(object):$/;"	kind:class	line:177
+__del__	../venv/bin/miniterm.py	/^        def __del__(self):$/;"	kind:member	line:115
+__enter__	../venv/bin/miniterm.py	/^    def __enter__(self):$/;"	kind:member	line:78
+__exit__	../venv/bin/miniterm.py	/^    def __exit__(self, *args, **kwargs):$/;"	kind:member	line:82
+__init__	../venv/bin/miniterm.py	/^        def __init__(self):$/;"	kind:member	line:103
+__init__	../venv/bin/miniterm.py	/^        def __init__(self):$/;"	kind:member	line:141
+__init__	../venv/bin/miniterm.py	/^        def __init__(self, fd):$/;"	kind:member	line:93
+__init__	../venv/bin/miniterm.py	/^    def __init__(self):$/;"	kind:member	line:262
+__init__	../venv/bin/miniterm.py	/^    def __init__(self):$/;"	kind:member	line:44
+__init__	../venv/bin/miniterm.py	/^    def __init__(self, serial_instance, echo=False, eol='crlf', filters=()):$/;"	kind:member	line:340
+_start_reader	../venv/bin/miniterm.py	/^    def _start_reader(self):$/;"	kind:member	line:358
+_stop_reader	../venv/bin/miniterm.py	/^    def _stop_reader(self):$/;"	kind:member	line:366
+argparse	../venv/bin/miniterm.py	/^    import argparse$/;"	kind:namespace	line:760
+ask_for_port	../venv/bin/miniterm.py	/^def ask_for_port():$/;"	kind:function	line:309
+atexit	../venv/bin/miniterm.py	/^    import atexit$/;"	kind:namespace	line:136
+cancel	../venv/bin/miniterm.py	/^        def cancel(self):$/;"	kind:member	line:129
+cancel	../venv/bin/miniterm.py	/^        def cancel(self):$/;"	kind:member	line:164
+cancel	../venv/bin/miniterm.py	/^    def cancel(self):$/;"	kind:member	line:71
+change_baudrate	../venv/bin/miniterm.py	/^    def change_baudrate(self):$/;"	kind:member	line:638
+change_encoding	../venv/bin/miniterm.py	/^    def change_encoding(self):$/;"	kind:member	line:622
+change_filter	../venv/bin/miniterm.py	/^    def change_filter(self):$/;"	kind:member	line:603
+change_port	../venv/bin/miniterm.py	/^    def change_port(self):$/;"	kind:member	line:652
+cleanup	../venv/bin/miniterm.py	/^        def cleanup(self):$/;"	kind:member	line:167
+cleanup	../venv/bin/miniterm.py	/^    def cleanup(self):$/;"	kind:member	line:54
+clearmem	../python/main.py	/^def clearmem():$/;"	kind:function	line:5
+close	../venv/bin/miniterm.py	/^    def close(self):$/;"	kind:member	line:395
+codecs	../venv/bin/miniterm.py	/^import codecs$/;"	kind:namespace	line:10
+comports	../venv/bin/miniterm.py	/^from serial.tools.list_ports import comports$/;"	kind:namespace	line:16
+ctypes	../venv/bin/miniterm.py	/^    import ctypes$/;"	kind:namespace	line:88
+curr_entry	../python/main.py	/^curr_entry = ser.readline()$/;"	kind:variable	line:64
+downloadcsv	../python/main.py	/^def downloadcsv():$/;"	kind:function	line:16
+dump_port_settings	../venv/bin/miniterm.py	/^    def dump_port_settings(self):$/;"	kind:member	line:415
+echo	../venv/bin/miniterm.py	/^    def echo(self, text):$/;"	kind:member	line:187
+echo	../venv/bin/miniterm.py	/^    def echo(self, text):$/;"	kind:member	line:270
+echo	../venv/bin/miniterm.py	/^    echo = rx$/;"	kind:variable	line:226
+echo	../venv/bin/miniterm.py	/^    echo = rx$/;"	kind:variable	line:256
+epylint	../venv/bin/epylint	1;"	kind:file	line:1
+fcntl	../venv/bin/miniterm.py	/^    import fcntl$/;"	kind:namespace	line:138
+flush	../venv/bin/miniterm.py	/^        def flush(self):$/;"	kind:member	line:96
+get_help_text	../venv/bin/miniterm.py	/^    def get_help_text(self):$/;"	kind:member	line:713
+getkey	../venv/bin/miniterm.py	/^        def getkey(self):$/;"	kind:member	line:119
+getkey	../venv/bin/miniterm.py	/^        def getkey(self):$/;"	kind:member	line:158
+getkey	../venv/bin/miniterm.py	/^    def getkey(self):$/;"	kind:member	line:57
+handle_menu_key	../venv/bin/miniterm.py	/^    def handle_menu_key(self, c):$/;"	kind:member	line:497
+helpcommands	../python/main.py	/^def helpcommands():$/;"	kind:function	line:48
+hexlify_codec	../venv/bin/miniterm.py	/^from serial.tools import hexlify_codec$/;"	kind:namespace	line:17
+isort	../venv/bin/isort	1;"	kind:file	line:1
+join	../venv/bin/miniterm.py	/^    def join(self, transmit_only=False):$/;"	kind:member	line:387
+key_description	../venv/bin/miniterm.py	/^def key_description(character):$/;"	kind:function	line:31
+main	../venv/bin/isort	/^from isort.main import main$/;"	kind:namespace	line:7
+main	../venv/bin/miniterm.py	/^def main(default_port=None, default_baudrate=9600, default_rts=None, default_dtr=None):$/;"	kind:function	line:757
 main.py	../python/main.py	1;"	kind:file	line:1
+miniterm.py	../venv/bin/miniterm.py	1;"	kind:file	line:1
+msvcrt	../venv/bin/miniterm.py	/^    import msvcrt$/;"	kind:namespace	line:87
+os	../venv/bin/miniterm.py	/^import os$/;"	kind:namespace	line:11
+possible_inputs	../python/main.py	/^possible_inputs = {$/;"	kind:variable	line:56
+pylint	../venv/bin/pylint	1;"	kind:file	line:1
+pyreverse	../venv/bin/pyreverse	1;"	kind:file	line:1
+raw_input	../venv/bin/miniterm.py	/^    raw_input = input   # in python3 it's "raw"$/;"	kind:variable	line:27
+re	../venv/bin/epylint	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/isort	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/pylint	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/pyreverse	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/symilar	/^import re$/;"	kind:namespace	line:4
+reader	../venv/bin/miniterm.py	/^    def reader(self):$/;"	kind:member	line:440
+run_epylint	../venv/bin/epylint	/^from pylint import run_epylint$/;"	kind:namespace	line:7
+run_pylint	../venv/bin/pylint	/^from pylint import run_pylint$/;"	kind:namespace	line:7
+run_pyreverse	../venv/bin/pyreverse	/^from pylint import run_pyreverse$/;"	kind:namespace	line:7
+run_symilar	../venv/bin/symilar	/^from pylint import run_symilar$/;"	kind:namespace	line:7
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:179
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:202
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:223
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:244
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:267
+rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:277
+ser	../python/main.py	/^ser = serial.Serial('\/dev\/tty.wchusbserial14130', 9600, timeout=10)$/;"	kind:variable	line:3
 serial	../python/main.py	/^import serial$/;"	kind:namespace	line:1
+serial	../venv/bin/miniterm.py	/^import serial$/;"	kind:namespace	line:15
+set_rx_encoding	../venv/bin/miniterm.py	/^    def set_rx_encoding(self, encoding, errors='replace'):$/;"	kind:member	line:405
+set_tx_encoding	../venv/bin/miniterm.py	/^    def set_tx_encoding(self, encoding, errors='replace'):$/;"	kind:member	line:410
+setup	../venv/bin/miniterm.py	/^        def setup(self):$/;"	kind:member	line:151
+setup	../venv/bin/miniterm.py	/^    def setup(self):$/;"	kind:member	line:51
+start	../venv/bin/miniterm.py	/^    def start(self):$/;"	kind:member	line:373
+stop	../venv/bin/miniterm.py	/^    def stop(self):$/;"	kind:member	line:383
+suspend_port	../venv/bin/miniterm.py	/^    def suspend_port(self):$/;"	kind:member	line:682
+symilar	../venv/bin/symilar	1;"	kind:file	line:1
+sys	../venv/bin/epylint	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/isort	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/miniterm.py	/^import sys$/;"	kind:namespace	line:12
+sys	../venv/bin/pylint	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/pyreverse	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/symilar	/^import sys$/;"	kind:namespace	line:5
+termios	../venv/bin/miniterm.py	/^    import termios$/;"	kind:namespace	line:137
+threading	../venv/bin/miniterm.py	/^import threading$/;"	kind:namespace	line:13
+tx	../venv/bin/miniterm.py	/^    def tx(self, text):$/;"	kind:member	line:183
+tx	../venv/bin/miniterm.py	/^    def tx(self, text):$/;"	kind:member	line:195
+tx	../venv/bin/miniterm.py	/^    def tx(self, text):$/;"	kind:member	line:205
+tx	../venv/bin/miniterm.py	/^    def tx(self, text):$/;"	kind:member	line:282
+unichr	../venv/bin/miniterm.py	/^    unichr = chr$/;"	kind:variable	line:28
+update_transformations	../venv/bin/miniterm.py	/^    def update_transformations(self):$/;"	kind:member	line:398
+upload_file	../venv/bin/miniterm.py	/^    def upload_file(self):$/;"	kind:member	line:581
+write	../venv/bin/miniterm.py	/^        def write(self, s):$/;"	kind:member	line:99
+write	../venv/bin/miniterm.py	/^    def write(self, text):$/;"	kind:member	line:66
+write_bytes	../venv/bin/miniterm.py	/^    def write_bytes(self, byte_string):$/;"	kind:member	line:61
+writer	../venv/bin/miniterm.py	/^    def writer(self):$/;"	kind:member	line:459

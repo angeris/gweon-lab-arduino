@@ -25,7 +25,7 @@ def downloadcsv():
     for curr_idx in range(total_entries):
         a, b = int(ser.readline()), int(ser.readline())
         print('Initial press time/Duration of press : {}ms/{}ms'.format(a, b))
-        all_entries.append((a,b))
+        all_entries.append((a, b))
 
     if not all_entries:
         return
@@ -53,7 +53,7 @@ def helpcommands():
     print('Quit: q')
     print('-------')
 
-possible_inputs = {
+POSSIBLE_INPUTS = {
     'c': clearmem,
     'd': downloadcsv,
     'h': helpcommands,
@@ -74,8 +74,8 @@ while True:
     if not curr_input:
         continue
 
-    if curr_input in possible_inputs:
-        possible_inputs[curr_input]()
+    if curr_input in POSSIBLE_INPUTS:
+        POSSIBLE_INPUTS[curr_input]()
         continue
 
     print('Invalid command.')
