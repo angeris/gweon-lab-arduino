@@ -11,7 +11,7 @@ The program given in `main.cpp` needs to be compiled for the Arduino (any of the
 - `BUTTON_PIN` defines the pin on which the button should be on. Note that we treat a button press as a digital 1->0.
 
 ## Python program
-The Python script is contained under `python/main.py`. To install the requirements to run this python script run
+The Python 3 (note the 3!) script is contained under `python/main.py`. To install the requirements to run this python script run
 ```
 pip install -r python/requirements.txt
 ```
