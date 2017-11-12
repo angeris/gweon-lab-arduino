@@ -73,8 +73,10 @@ void savepress(unsigned long curr_millis) {
         return;
     }
 
-    ButtonPress button_press = { .time_started = prev_millis, 
-        .millis_count = time_down };
+    ButtonPress button_press = {
+        .time_started = prev_millis, 
+        .millis_count = time_down
+    };
     
     EEPROM.put(curr_pos, button_press);
     curr_pos += sizeof(ButtonPress);
