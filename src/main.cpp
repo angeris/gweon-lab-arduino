@@ -6,6 +6,11 @@
 
 #define BUTTON_PIN 12
 
+#define LIGHT_LED true
+#define LED_PIN 3
+
+#define BUZZER_PIN 6
+
 /* Memory structure:
  * EEPROM[0], byte: number of total entries
  * EEPROM[2..n], sizeof(ButtonPress): given entries
@@ -35,6 +40,7 @@ void setup() {
     // Initialize the button
     was_pressed = false;
     pinMode(BUTTON_PIN, INPUT_PULLUP);
+    pinMode(LED_PIN, OUTPUT);
 }
 
 // Clears the current memory on the EEPROM
@@ -47,6 +53,16 @@ void clearmem() {
     curr_pos = sizeof(data_length);
 
     Serial.println("done");
+}
+
+void lightLED(bool on) {
+    if(!LIGHT_LED) {
+        digitalWrite(LED_PIN, 0);
+     }
+     digitalWrite(LED_PIN, on);
+}
+void soundBuzzer(bool on) {
+    digitalWrite(BUZZER_PIN, on);
 }
 
 // Prints the memory contents to be parsed by the application
@@ -98,6 +114,9 @@ void loop() {
     
     bool curr_press = digitalRead(BUTTON_PIN);
     unsigned long curr_time = millis();
+
+    lightLED(!curr_press);
+    soundBuzzer(!curr_press);
 
     if (!curr_press) {
         if (!was_pressed) {

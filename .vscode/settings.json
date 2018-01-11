@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/Users/Guille/Documents/PlatformIO/Projects/171109-174732-nanoatmega328/venv/bin/python"
+    "python.pythonPath": "/Users/Guille/Documents/PlatformIO/Projects/171109-174732-nanoatmega328/venv/bin/python",
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/Guille/.platformio/penv/bin:/usr/local/opt/bison/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/Guille/.pyenv/bin:/Users/Guille/.pyenv/shims:/Applications/Julia-0.6.app/Contents/Resources/julia/bin:/Users/Guille/.npm-global/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/usr/local/git/bin:/opt/openafs/bin:/opt/openafs/sbin:/Users/Guille/.platformio/packages/toolchain-icestorm/bin:/Applications/Scansion.app/Contents/MacOS:/Users/Guille/ti/msp430_gcc/bin:/Users/Guille/Documents/Programming/Utilities/gcc-arm-none-eabi/bin:/Users/Guille/Documents/Programming/Utilities/google-cloud-sdk/bin:/Users/Guille/Documents/Programming/Utilities/platform-tools"
+    }
 }

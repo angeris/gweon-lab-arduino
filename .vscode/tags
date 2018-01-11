@@ -17,6 +17,7 @@ Miniterm	../venv/bin/miniterm.py	/^class Miniterm(object):$/;"	kind:class	line:3
 NoControls	../venv/bin/miniterm.py	/^class NoControls(NoTerminal):$/;"	kind:class	line:229
 NoTerminal	../venv/bin/miniterm.py	/^class NoTerminal(Transform):$/;"	kind:class	line:213
 Out	../venv/bin/miniterm.py	/^    class Out(object):$/;"	kind:class	line:90
+POSSIBLE_INPUTS	../python/main.py	/^POSSIBLE_INPUTS = {$/;"	kind:variable	line:56
 Printable	../venv/bin/miniterm.py	/^class Printable(Transform):$/;"	kind:class	line:241
 REPLACEMENT_MAP	../venv/bin/miniterm.py	/^    REPLACEMENT_MAP = dict((x, 0x2400 + x) for x in range(32) if unichr(x) not in '\\r\\n\\b\\t')$/;"	kind:variable	line:216
 REPLACEMENT_MAP	../venv/bin/miniterm.py	/^    REPLACEMENT_MAP = dict((x, 0x2400 + x) for x in range(32))$/;"	kind:variable	line:232
@@ -76,7 +77,6 @@ main.py	../python/main.py	1;"	kind:file	line:1
 miniterm.py	../venv/bin/miniterm.py	1;"	kind:file	line:1
 msvcrt	../venv/bin/miniterm.py	/^    import msvcrt$/;"	kind:namespace	line:87
 os	../venv/bin/miniterm.py	/^import os$/;"	kind:namespace	line:11
-possible_inputs	../python/main.py	/^possible_inputs = {$/;"	kind:variable	line:56
 pylint	../venv/bin/pylint	1;"	kind:file	line:1
 pyreverse	../venv/bin/pyreverse	1;"	kind:file	line:1
 raw_input	../venv/bin/miniterm.py	/^    raw_input = input   # in python3 it's "raw"$/;"	kind:variable	line:27
@@ -96,7 +96,7 @@ rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:223
 rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:244
 rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:267
 rx	../venv/bin/miniterm.py	/^    def rx(self, text):$/;"	kind:member	line:277
-ser	../python/main.py	/^ser = serial.Serial('\/dev\/tty.wchusbserial14130', 9600, timeout=10)$/;"	kind:variable	line:3
+ser	../python/main.py	/^ser = serial.Serial('\/dev\/tty.wchusbserial1410', 9600, timeout=10)$/;"	kind:variable	line:3
 serial	../python/main.py	/^import serial$/;"	kind:namespace	line:1
 serial	../venv/bin/miniterm.py	/^import serial$/;"	kind:namespace	line:15
 set_rx_encoding	../venv/bin/miniterm.py	/^    def set_rx_encoding(self, encoding, errors='replace'):$/;"	kind:member	line:405

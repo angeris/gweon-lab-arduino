@@ -1,6 +1,19 @@
+import sys
 import serial
+from serial.tools.list_ports import comports
 
-ser = serial.Serial('/dev/tty.wchusbserial14130', 9600, timeout=10)
+ARDUINO_STRING = 'wchusbserial'
+
+ser = None
+
+# Find the arduino
+for p in comports():
+    if ARDUINO_STRING in p.device:
+        ser = serial.Serial(p.device, 9600, timeout=10)
+
+if ser is None:
+    print('Error: could not find Arduino! (Are you sure it\'s connected?)')
+    sys.exit(0)
 
 def clearmem():
     ser.write(b'c')
